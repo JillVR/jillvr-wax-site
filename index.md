@@ -2,16 +2,19 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
-  pid: obj10
-  y: 25%
+  collection: gaudet_school
+  pid: gs13
+  y: 30%
   height: '500px'
 ---
 
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
+Welcome to this collection of selected images from the 1953 Gaudet School (New Orleans, Louisiana) Yearbook, primarily drawn from the personal collection of the yearbook's owner, Yvette Marsalis Washington, and the personal collection of Myrtle Thomas.
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+In the **About** section, you will also find a timeline of the school's history from its founding to the mid-1950s.
+
+Exhibition section, more history of the school, and information about students and faculty to come!
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='qatar' %}
+{% include collection_gallery.html facet_by='format' collection='gaudet_school' %}
+
